@@ -1,27 +1,19 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# Web Starter Kit
+###Simple structure to start simple site.
+[See example here](http://www.jagawebdev.com/web-starter-kit/)
 
+####Includes:
+NormalizeCSS, Ionicons, Google Font (Fira Sans), few SASS Mixins and built-in responsive navigation bar.
 
-Hi there! Welcome to Cloud9 IDE!
+####Reminder:
+Check and update jQuery, AngularJS and Bootstrap versions.
 
-To get you started, we included a small hello world application.
+####Credits:
+* Google Font: [https://fonts.google.com/](https://fonts.google.com/)
+* Normalize CSS: [https://necolas.github.io/normalize.css/](https://necolas.github.io/normalize.css/)
+* Ionicons: [http://ionicons.com/](http://ionicons.com/)
+* jQuery: [https://jquery.com/](https://jquery.com/)
+* AngularJS: [https://angularjs.org/](https://angularjs.org/)
+* Bootstrap: [http://getbootstrap.com/](http://getbootstrap.com/)
+* Sass: [http://sass-lang.com/](http://sass-lang.com/)
 
-1) Open the hello-world.html file
-
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
-# nail-crush
