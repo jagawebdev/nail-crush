@@ -1,50 +1,48 @@
 @import "colors.scss";
 @import "mixins.scss";
 
-
 .navbar-container {
-    display: block;
-    width: 100%;
-    height: 90px;
-    z-index: 200;
+    position: absolute;
+    width: 200px;
+    padding-bottom: 10px;
     background-color: white;
-    font-weight: 300;
-    border-bottom: solid 1px gray;
+    margin-left: 40px;
+    //border-left: 1px solid $orange;
+    //border-right: 1px solid $orange;
+    z-index: 200;
 }
 
-.sm-navbar {
-    width: 70%;
+.logo-container {
+    position: relative;
+    width: 140px;
     margin: auto;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: black;
-    &:hover {
-        text-decoration: none;
-        color: black;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    .logo {
+        width: 140px;
+        height: 80px;
     }
 }
 
 .navbar {
-    float: right;
-    display: inline-block;
     list-style: none;
-    padding: 0;
-    margin: 0;
-    padding-top: 35px;
     li {
-        display: inline;
-        padding: 20px 20px 0 0;
-        &:last-child {
-            padding-right: 20px;
-        }
+        padding: 10px;
+    }
+}
+
+.nav-link {
+    color: $orange;
+    text-decoration: none;
+    padding-top: 10px;
+    &:hover {
+        color: $orange;
     }
 }
 
 .hamburger {
     display: none;
-    color: black;
+    color: white;
     width: 100%;
     font-size: 40px;
     padding: 10px 20px 0 0;
@@ -92,11 +90,21 @@
         transform: translateY(0);
     }
     
-    .navbar {
+    .navbar,
+    .logo-container {
         display: none;
+    }
+    
+    .navbar-container {
+        width: 100%;
+        margin: 0;
+        border: none;
+        background-color: $orange;
+        
     }
     
     .hamburger {
         display: inline-block;
     }
 }
+
