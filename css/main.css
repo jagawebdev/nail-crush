@@ -486,10 +486,17 @@ body {
   height: 150px;
   background-color: #fae0d8;
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
   text-align: center; }
+  .squares a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400; }
+    .squares a:hover {
+      color: white; }
 
 .square-inside {
   width: 1100px;
@@ -540,7 +547,8 @@ body {
   .square3 {
     width: 200px;
     height: 200px;
-    margin: 15px 20px; } }
+    margin: 15px 20px;
+    font-size: 24px; } }
 @media (min-width: 542px) and (max-width: 732px) {
   .square-inside {
     width: 550px; }
@@ -550,7 +558,8 @@ body {
   .square3 {
     width: 160px;
     height: 160px;
-    margin: 15px 10px; } }
+    margin: 15px 10px;
+    font-size: 18px; } }
 @media screen and (max-width: 541px) {
   .square-inside {
     width: 100%; }
@@ -561,6 +570,7 @@ body {
     width: 200px;
     float: none;
     height: 200px;
-    margin: 15px 0 15px 55px; } }
+    margin: 15px 0 15px 55px;
+    font-size: 24px; } }
 
 /*# sourceMappingURL=main.css.map */
