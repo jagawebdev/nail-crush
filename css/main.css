@@ -459,8 +459,108 @@ body {
   clear: both; }
 
 .landing {
-  background-color: pink;
   width: 100%;
-  height: 500px; }
+  height: 500px;
+  background: url(../img/polish-bg.jpg) center no-repeat;
+  background-size: cover; }
+
+.greeting {
+  margin: auto;
+  padding-top: 170px;
+  margin-left: 300px; }
+
+.welcome {
+  font-size: 100px;
+  font-family: 'Pacifico', cursive;
+  line-height: 50px;
+  color: white; }
+
+.sub-welcome {
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  padding-left: 20px;
+  color: #ec5525; }
+
+.squares {
+  width: 100%;
+  height: 150px;
+  background-color: #fae0d8;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center; }
+
+.square-inside {
+  width: 1100px;
+  margin: auto; }
+
+.square1 {
+  display: inline-block;
+  margin: 15px 30px;
+  width: 300px;
+  height: 300px;
+  background: url(../img/polish-drop-pink.png) center no-repeat;
+  background-size: cover; }
+
+.square2 {
+  display: inline-block;
+  margin: 15px 30px;
+  width: 300px;
+  height: 300px;
+  background: url(../img/polish-drop-blue.png) center no-repeat;
+  background-size: cover; }
+
+.square3 {
+  display: inline-block;
+  margin: 15px 30px;
+  width: 300px;
+  height: 300px;
+  background: url(../img/polish-drop-glitter.png) center no-repeat;
+  background-size: cover; }
+
+@media (min-width: 621px) and (max-width: 750px) {
+  .greeting {
+    margin-left: 240px; } }
+@media screen and (max-width: 620px) {
+  .greeting {
+    margin-left: 30px; }
+
+  .welcome {
+    font-size: 70px; }
+
+  .sub-welcome {
+    font-size: 14px; } }
+@media (min-width: 733px) and (max-width: 1096px) {
+  .square-inside {
+    width: 750px; }
+
+  .square1,
+  .square2,
+  .square3 {
+    width: 200px;
+    height: 200px;
+    margin: 15px 20px; } }
+@media (min-width: 542px) and (max-width: 732px) {
+  .square-inside {
+    width: 550px; }
+
+  .square1,
+  .square2,
+  .square3 {
+    width: 160px;
+    height: 160px;
+    margin: 15px 10px; } }
+@media screen and (max-width: 541px) {
+  .square-inside {
+    width: 100%; }
+
+  .square1,
+  .square2,
+  .square3 {
+    width: 200px;
+    float: none;
+    height: 200px;
+    margin: 15px 0 15px 55px; } }
 
 /*# sourceMappingURL=main.css.map */
