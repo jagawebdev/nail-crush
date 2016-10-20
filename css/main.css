@@ -555,14 +555,16 @@ h1 {
 
 .testimonials {
   background-color: white;
-  padding: 40px 0 80px;
+  padding: 20px 0 80px;
   color: black;
-  text-align: center; }
+  text-align: center;
+  width: 90%;
+  margin: auto; }
 
 .testimonial {
   width: 33.3%;
   float: left;
-  padding: 0 100px; }
+  padding: 20px 100px; }
 
 .contact {
   position: relative;
@@ -580,6 +582,56 @@ h1 {
   padding: 20px 60px 60px;
   margin: auto; }
 
+.email-form {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  float: left;
+  padding-bottom: 30px; }
+
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: 25px auto; }
+  form input, form textarea {
+    background-color: black;
+    width: 100%;
+    border: solid 1px white;
+    padding: 5px;
+    color: white;
+    font-weight: 300; }
+    form input:focus, form textarea:focus {
+      border: solid 1px white; }
+  form [type="submit"] {
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0.06em;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    float: right; }
+    form [type="submit"]:hover {
+      background-color: white;
+      color: #ec5525; }
+  form textarea {
+    height: 120px; }
+  form label {
+    display: block;
+    margin-bottom: 20px; }
+    form label span {
+      display: block; }
+
+.direction {
+  color: #f4b25b;
+  font-weight: 300;
+  text-decoration: none; }
+  .direction .arrow {
+    padding-left: 5px; }
+  .direction:hover {
+    color: white; }
+
 @media screen and (max-width: 620px) {
   .greeting {
     margin-left: 25px; }
@@ -592,7 +644,8 @@ h1 {
 
   .special-box,
   .contact-box {
-    width: 280px; } }
+    width: 280px;
+    padding: 20px 30px 60px; } }
 @media (min-width: 733px) and (max-width: 1096px) {
   .square-inside {
     width: 750px; }
@@ -606,7 +659,10 @@ h1 {
     font-size: 24px; }
 
   .squares-pinkish {
-    display: none; } }
+    display: none; }
+
+  .testimonial {
+    padding: 20px 40px; } }
 @media (min-width: 542px) and (max-width: 732px) {
   .square-inside {
     width: 550px; }
@@ -620,7 +676,11 @@ h1 {
     font-size: 18px; }
 
   .squares-pinkish {
-    display: none; } }
+    display: none; }
+
+  .testimonial {
+    width: 100%;
+    padding: 20px 40px; } }
 @media screen and (max-width: 541px) {
   .square-inside {
     width: 100%; }
@@ -635,6 +695,10 @@ h1 {
     font-size: 24px; }
 
   .squares-pinkish {
-    display: none; } }
+    display: none; }
+
+  .testimonial {
+    width: 100%;
+    padding: 20px 40px; } }
 
 /*# sourceMappingURL=main.css.map */
