@@ -632,6 +632,16 @@ form {
   .direction:hover {
     color: white; }
 
+footer {
+  width: 100%;
+  background-color: black;
+  color: #f8f8f8; }
+
+.footer-container {
+  width: 75%;
+  margin: auto;
+  padding: 30px 0; }
+
 @media screen and (max-width: 620px) {
   .greeting {
     margin-left: 25px; }
