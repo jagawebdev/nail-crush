@@ -158,6 +158,18 @@ h1 {
     margin: auto;
 }
 
+.facebook {
+  padding: 2px 13px;
+  border-radius: 100%;
+  color: white;
+  font-size: 24px;
+  background-color: $light-orange;
+  &:hover {
+      background-color: white;
+      color: $light-orange;
+  }
+}
+
 .email-form {
     display: inline-block;
     width: 100%;
@@ -194,7 +206,7 @@ form {
         float: right;
         &:hover {
             background-color: white;
-            color: $orange;
+            color: $light-orange;
         }
     }
 
@@ -229,6 +241,15 @@ footer{
     width: 100%;
     background-color: black;
     color: $off-white;
+    font-size: 14px;
+    color: $off-white;
+    text-align: center;
+    a {
+        color: white;
+        &:hover {
+            color: $light-orange;
+        }
+    }
 }
 
 .footer-container {

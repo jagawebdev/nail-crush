@@ -582,6 +582,16 @@ h1 {
   padding: 20px 60px 60px;
   margin: auto; }
 
+.facebook {
+  padding: 2px 13px;
+  border-radius: 100%;
+  color: white;
+  font-size: 24px;
+  background-color: #f4b25b; }
+  .facebook:hover {
+    background-color: white;
+    color: #f4b25b; }
+
 .email-form {
   display: inline-block;
   width: 100%;
@@ -614,7 +624,7 @@ form {
     float: right; }
     form [type="submit"]:hover {
       background-color: white;
-      color: #ec5525; }
+      color: #f4b25b; }
   form textarea {
     height: 120px; }
   form label {
@@ -635,7 +645,14 @@ form {
 footer {
   width: 100%;
   background-color: black;
-  color: #f8f8f8; }
+  color: #f8f8f8;
+  font-size: 14px;
+  color: #f8f8f8;
+  text-align: center; }
+  footer a {
+    color: white; }
+    footer a:hover {
+      color: #f4b25b; }
 
 .footer-container {
   width: 75%;
