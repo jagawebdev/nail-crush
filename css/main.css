@@ -364,89 +364,89 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-.navbar-container {
-  position: absolute;
-  width: 200px;
-  padding-bottom: 10px;
+header {
+  display: block;
+  top: 0;
+  width: 100%;
   background-color: white;
-  margin-left: 40px;
-  z-index: 200; }
-
-.logo-container {
-  position: relative;
-  width: 140px;
-  margin: auto;
-  padding-top: 20px;
-  padding-bottom: 15px; }
-  .logo-container .logo {
-    width: 140px;
-    height: 80px; }
+  font-size: 14px;
+  z-index: 200;
+  border-bottom: solid 1px #ec5525; }
 
 .navbar {
-  list-style: none; }
-  .navbar li {
-    padding: 10px; }
+  display: block;
+  position: relative;
+  width: 75%;
+  height: 110px;
+  margin: auto; }
 
-.nav-link {
-  color: #ec5525;
-  text-decoration: none;
-  padding-top: 10px; }
-  .nav-link:hover {
-    color: #ec5525; }
+.logo-container {
+  display: inline-block;
+  position: relative;
+  margin: 13px 0 13px 10px; }
+
+.logo {
+  width: 140px;
+  height: 80px; }
+
+.navlist {
+  position: relative;
+  display: block;
+  float: right; }
+  .navlist ul {
+    list-style: none; }
+    .navlist ul li {
+      display: inline-block;
+      text-transform: uppercase;
+      padding: 0 10px;
+      color: #ec5525;
+      line-height: 80px; }
 
 .hamburger {
   display: none;
-  color: white;
-  width: 100%;
+  color: #ec5525;
   font-size: 40px;
-  padding: 10px 20px 0 0;
+  padding: 20px 20px 0 0;
+  float: right;
   text-align: right; }
   .hamburger:hover {
     cursor: pointer; }
 
 .drop-menu {
-  text-align: center;
   display: none;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   line-height: 0;
-  margin-top: 50px; }
+  margin-top: 71px;
+  text-align: center; }
+  .drop-menu ul {
+    background-color: white;
+    list-style: none;
+    padding-left: 0; }
+    .drop-menu ul li {
+      padding: 20px; }
+    .drop-menu ul a {
+      text-decoration: none;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #ec5525; }
+      .drop-menu ul a:hover {
+        color: #ec5525; }
 
-.drop-ul {
-  background-color: white;
-  list-style: none;
-  padding-left: 0; }
-
-.drop-li {
-  padding: 15px;
-  font-weight: 300; }
-
-.drop-link {
-  text-decoration: none;
-  font-size: 16px;
-  color: black; }
-  .drop-link:hover {
-    text-decoration: none;
-    color: black; }
-
-@media screen and (max-width: 620px) {
-  .header.hidden {
-    transform: translateY(0); }
-
-  .navbar,
-  .logo-container {
-    display: none; }
-
-  .navbar-container {
-    width: 100%;
-    margin: 0;
-    border: none;
-    background-color: #ec5525; }
+@media screen and (max-width: 575px) {
+  .navbar {
+    width: 100%; }
+    .navbar .navlist {
+      display: none; }
 
   .hamburger {
     display: inline-block; } }
+@media (min-width: 576px) and (max-width: 720px) {
+  .navbar {
+    width: 95%; } }
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -458,6 +458,12 @@ body {
 .clearfix {
   clear: both; }
 
+h1 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-weight: 300;
+  font-size: 46px; }
+
 .landing {
   width: 100%;
   height: 500px;
@@ -467,7 +473,7 @@ body {
 .greeting {
   margin: auto;
   padding-top: 170px;
-  margin-left: 300px; }
+  margin-left: 170px; }
 
 .welcome {
   font-size: 100px;
@@ -483,36 +489,40 @@ body {
 
 .squares {
   width: 100%;
-  height: 150px;
-  background-color: #fae0d8;
+  background: url(../img/polish-art.jpg) center no-repeat;
+  background-size: cover;
   color: white;
   font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 70px; }
   .squares a {
     color: white;
     text-decoration: none;
     font-size: 24px;
-    font-weight: 400; }
+    font-weight: 300; }
     .squares a:hover {
-      color: white; }
+      color: #ec5525; }
+    .squares a .arrow {
+      padding-left: 8px; }
 
 .square-inside {
   width: 1100px;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 70px; }
 
 .square1 {
   display: inline-block;
-  margin: 15px 30px;
+  margin: -130px 30px 15px;
   width: 300px;
   height: 300px;
-  background: url(../img/polish-drop-pink.png) center no-repeat;
+  background: url(../img/polish-drop-green.png) center no-repeat;
   background-size: cover; }
 
 .square2 {
   display: inline-block;
-  margin: 15px 30px;
+  margin: -130px 30px 15px;
   width: 300px;
   height: 300px;
   background: url(../img/polish-drop-blue.png) center no-repeat;
@@ -520,24 +530,69 @@ body {
 
 .square3 {
   display: inline-block;
-  margin: 15px 30px;
+  margin: -130px 30px 15px;
   width: 300px;
   height: 300px;
-  background: url(../img/polish-drop-glitter.png) center no-repeat;
+  background: url(../img/polish-drop-black.png) center no-repeat;
   background-size: cover; }
 
-@media (min-width: 621px) and (max-width: 750px) {
-  .greeting {
-    margin-left: 240px; } }
+.squares-pinkish {
+  width: 100%;
+  height: 130px;
+  background-color: #fae0d8; }
+
+.special-box {
+  position: relative;
+  background-color: black;
+  width: 500px;
+  padding: 20px 60px 60px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  color: #f8f8f8; }
+
+.testimonials {
+  background-color: white;
+  padding: 40px 0 80px;
+  color: black;
+  text-align: center; }
+
+.testimonial {
+  width: 33.3%;
+  float: left;
+  padding: 0 100px; }
+
+.contact {
+  position: relative;
+  width: 100%;
+  background: url(../img/orange-sparkle.jpg) center no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  color: #f8f8f8;
+  text-align: center; }
+
+.contact-box {
+  position: relative;
+  background-color: black;
+  width: 500px;
+  padding: 20px 60px 60px;
+  margin: auto; }
+
 @media screen and (max-width: 620px) {
   .greeting {
-    margin-left: 30px; }
+    margin-left: 25px; }
 
   .welcome {
     font-size: 70px; }
 
   .sub-welcome {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .special-box,
+  .contact-box {
+    width: 280px; } }
 @media (min-width: 733px) and (max-width: 1096px) {
   .square-inside {
     width: 750px; }
@@ -548,7 +603,10 @@ body {
     width: 200px;
     height: 200px;
     margin: 15px 20px;
-    font-size: 24px; } }
+    font-size: 24px; }
+
+  .squares-pinkish {
+    display: none; } }
 @media (min-width: 542px) and (max-width: 732px) {
   .square-inside {
     width: 550px; }
@@ -559,7 +617,10 @@ body {
     width: 160px;
     height: 160px;
     margin: 15px 10px;
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .squares-pinkish {
+    display: none; } }
 @media screen and (max-width: 541px) {
   .square-inside {
     width: 100%; }
@@ -570,7 +631,10 @@ body {
     width: 200px;
     float: none;
     height: 200px;
-    margin: 15px 0 15px 55px;
-    font-size: 24px; } }
+    margin: 15px 0 15px 0;
+    font-size: 24px; }
+
+  .squares-pinkish {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

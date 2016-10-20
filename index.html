@@ -11,32 +11,34 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar-container">
-        <a href="#"><div class="logo-container"><img src="img/web-logo-orange.jpg" class="logo"/></div></a>
-        <ul class="navbar">
-            <li><a href="#" class="nav-link">HOME</a></li>
-            <li><a href="#" class="nav-link">SERVICES</a></li>
-            <li><a href="#" class="nav-link">SPECIALS</a></li>
-            <li><a href="#" class="nav-link">GALLERY</a></li>
-            <li><a href="#" class="nav-link">CONTACT</a></li>
-        </ul>
-        
-            <a href="#">
-            <div onclick="myFunction()"  class="hamburger ion-android-menu">
-                <div class="drop-menu">
-                    <ul class="drop-ul">
-                        <a href="#" class="drop-link"><li class="drop-li">HOME</li></a>
-                        <a href="#" class="drop-link"><li class="drop-li">SERVICES</li></a>
-                        <a href="#" class="drop-link"><li class="drop-li">SPECIALS</li></a>
-                        <a href="#" class="drop-link"><li class="drop-li">GALLERY</li></a>
-                        <a href="#" class="drop-link"><li class="drop-li">CONTACT</li></a>
+    <header>
+        <navbar class="navbar">
+                <a href="index.html"><div class="logo-container"><img src="img/web-logo-orange.jpg" class="logo"/></div></a>
+                
+                <div class="navlist">
+                    <ul>
+                        <a href="index.html"><li class="active-nav-list">home</li></a>
+                        <a href="programs.html"><li>services</li></a>
+                        <a href="promotion.html"><li>gallery</li></a>
+                        <a href="state.html"><li>contact</li></a>
                     </ul>
                 </div>
-           </div>
-       </a>
-    </nav><!-- End Navigation Bar -->
-    
+                
+                <a href="#">
+                    <div onclick="myFunction()"  class="hamburger ion-android-menu">
+                        <div class="drop-menu">
+                            <ul class="drop-ul">
+                                <a href="index.html" class="drop-link"><li>home</li></a>
+                                <a href="programs.html" class="drop-link"><li>services</li></a>
+                                <a href="promotion.html" class="drop-link"><li>gallery</li></a>
+                                <a href="state.html" class="drop-link"><li>contact</li></a>
+                            </ul>
+                        </div>
+                   </div>
+               </a>
+        </navbar>
+    </header>
+
     <section class="landing">
         <div class="greeting">
             <span class="welcome">Welcome<br/>
@@ -44,15 +46,44 @@
             </span>
         </div>
     </section>
+    
+    <div class="squares-pinkish"></div>
+    
     <div class="squares">
         <div class="square-inside">
-            <div class="square1"><br/><br/>nails<br/><br/><a href="#">more ></a></div>
-            <div class="square2"><br/><br/>waxing<br/><br/><a href="#">more ></a></div>
+            <div class="square1"><br/><br/>nails<br/><br/><a href="#">more <span class="arrow ion-chevron-right"></span></a></div>
+            <div class="square2"><br/><br/>waxing<br/><br/><a href="#">more <span class="arrow ion-chevron-right"></span></a></div>
             <div class="square3"><br/><br/>Gift <br/>card <br/>available</div>
         </div>
+        <div class="special-box">
+            <h1>Keratin Service</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+            dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
+            pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede 
+            justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus 
+            ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede</p>
+        </div>
     </div>
-        
-        
+   
+   <div class="testimonials">
+       <h1>Testimonials</h1>
+       <div class="testimonial1 testimonial">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</div>
+       <div class="testimonial2 testimonial">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</div>
+       <div class="testimonial3 testimonial">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</div>
+       <div class="clearfix"></div>
+   </div>
+    <div class="contact">
+        <div class="contact-box">
+            <h1>Visit Us</h1>
+            <p>4612 N Lincoln Ave, Chicago, IL 60625</p>
+            <p>Tel: 773-506-1010</p>
+            <br/>
+            <br/>
+            <p>OPENING HOURS</p>
+            <p>Mon - Fri: 10am - 8pm  <br/>  Sat: 10am - 7pm  <br/>  Sun: 10am - 6pm</p>
+        </div>
+    </div>
         
         
         

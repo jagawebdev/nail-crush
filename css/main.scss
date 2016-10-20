@@ -13,6 +13,13 @@ body {
 }
 
 //=======LANDING========//
+h1 {
+    text-align: center;    
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+    font-size: 46px;
+}
+
 .landing {
     width: 100%;
     height: 500px;
@@ -23,7 +30,7 @@ body {
 .greeting {
     margin: auto;
     padding-top: 170px;
-    margin-left: 300px;
+    margin-left: 170px;
 }
 
 .welcome{
@@ -41,41 +48,47 @@ body {
 
 .squares {
     width: 100%;
-    height: 150px;
-    background-color: $pinkish;
+    background: url(../img/polish-art.jpg) center no-repeat;
+    background-size: cover;
     color: white;
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+    padding-bottom: 70px;
     a {
         color: white;
         text-decoration: none;
         font-size: 24px;
-        font-weight: 400;
+        font-weight: 300;
         &:hover {
-            color: white;
+            color: $orange;
+        }
+        .arrow {
+            padding-left: 8px;
         }
     }
 }
 
+
 .square-inside {
     width: 1100px;
     margin: auto;
+    padding-bottom: 70px;
 }
 
 .square1 {
     display: inline-block;
-    margin: 15px 30px;
+    margin: -130px 30px 15px;
     width: 300px;
     height: 300px;
-    background: url(../img/polish-drop-pink.png) center no-repeat;
+    background: url(../img/polish-drop-green.png) center no-repeat;
     background-size: cover;
 }
 
 .square2 {
     display: inline-block;
-    margin: 15px 30px;
+    margin: -130px 30px 15px;
     width: 300px;
     height: 300px;
     background: url(../img/polish-drop-blue.png) center no-repeat;
@@ -84,22 +97,68 @@ body {
 
 .square3 {
     display: inline-block;
-    margin: 15px 30px;
+    margin: -130px 30px 15px;
     width: 300px;
     height: 300px;
-    background: url(../img/polish-drop-glitter.png) center no-repeat;
+    background: url(../img/polish-drop-black.png) center no-repeat;
     background-size: cover;
 }
 
-@media (min-width: 621px) and (max-width: 750px) {
-    .greeting {
-        margin-left: 240px;
-    }
+.squares-pinkish {
+    width: 100%;
+    height: 130px;
+    background-color: $pinkish;
+}
+
+.special-box {
+    position: relative;
+    background-color: black;
+    width: 500px;
+    padding: 20px 60px 60px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: none;
+    color: $off-white;
+}
+
+//=======TESTIMONIAL SECTION========//
+.testimonials {
+    background-color: white;
+    padding: 40px 0 80px;
+    color: black;
+    text-align: center;
+}
+
+.testimonial {
+    width: 33.3%;
+    float: left;
+    padding: 0 100px;
+}
+
+//=======CONTACT BOX SECTION========//
+.contact {
+    position: relative;
+    width: 100%;
+    background: url(../img/orange-sparkle.jpg) center no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    color: $off-white;
+    text-align: center;
+}
+
+.contact-box {
+    position: relative;
+    background-color: black;
+    width: 500px;
+    padding: 20px 60px 60px;
+    margin: auto;
 }
 
 @media screen and (max-width: 620px) {
     .greeting {
-        margin-left: 30px;
+        margin-left: 25px;
     }
     
     .welcome{
@@ -107,6 +166,11 @@ body {
     }
     .sub-welcome {
         font-size: 14px;
+    }
+    
+    .special-box,
+    .contact-box{
+        width: 280px;
     }
 }
 
@@ -123,6 +187,10 @@ body {
         margin: 15px 20px;
         font-size: 24px;
     }
+    
+    .squares-pinkish {
+        display: none;
+    }
 }
 
 @media (min-width: 542px) and (max-width: 732px) {
@@ -138,6 +206,10 @@ body {
         margin: 15px 10px;
         font-size: 18px;
     }
+    
+    .squares-pinkish {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 541px) {
@@ -151,7 +223,11 @@ body {
         width: 200px;
         float: none;
         height: 200px;
-        margin: 15px 0 15px 55px;
+        margin: 15px 0 15px 0;
         font-size: 24px;
+    }
+    
+    .squares-pinkish {
+        display: none;
     }
 }
