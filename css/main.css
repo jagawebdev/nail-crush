@@ -642,6 +642,32 @@ form {
   .direction:hover {
     color: white; }
 
+.services {
+  background: url(../img/many-polish-drops1.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 60px 0; }
+
+.services-box,
+.services-box-2,
+.services-box-3 {
+  background-color: white;
+  color: black;
+  margin: 0 auto 30px;
+  width: 600px;
+  padding: 20px 60px 60px; }
+
+.service-title {
+  color: #ec5525; }
+
+.service-price {
+  color: #ec5525;
+  float: right; }
+
+.service-content {
+  font-size: 14px;
+  text-indent: 15px; }
+
 footer {
   width: 100%;
   background-color: black;
@@ -672,7 +698,11 @@ footer {
   .special-box,
   .contact-box {
     width: 280px;
-    padding: 20px 30px 60px; } }
+    padding: 20px 30px 60px; }
+
+  .services-box {
+    width: 95%;
+    padding: 10px 20px 60px; } }
 @media (min-width: 733px) and (max-width: 1096px) {
   .square-inside {
     width: 750px; }
