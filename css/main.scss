@@ -238,8 +238,8 @@ form {
 
 //=======SERVICE PAGE========//
 .services {
-    background: url(../img/many-polish-drops1.jpg) center no-repeat;
-    background-size: cover;
+    background: url(../img/polish-wallpaper.jpg) ;
+    //background-size: cover;
     width: 100%;
     padding: 60px 0;
 }
@@ -247,25 +247,39 @@ form {
 .services-box,
 .services-box-2,
 .services-box-3 {
-    background-color: white;
-    color: black;
+    background-color: $orange;
+    color: white;
     margin: 0 auto 30px;
     width: 600px;
     padding: 20px 60px 60px;
 }
 
 .service-title {
-    color: $orange;
+    color: black;
 }
 
 .service-price, {
-    color: $orange;
+    color: black;
     float: right;
 }
 
 .service-content {
     font-size: 14px;
     text-indent: 15px;
+}
+
+//=======GALLERY PAGE========//
+.gallery {
+    position: relative;
+    width: 100%;
+    background: url(../img/many-polish-drops1.jpg) center no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.carousel {
+    width: 60%;
+    margin: auto;
 }
 
 //=======FOOTER SECTION========//

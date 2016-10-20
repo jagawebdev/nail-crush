@@ -643,30 +643,40 @@ form {
     color: white; }
 
 .services {
-  background: url(../img/many-polish-drops1.jpg) center no-repeat;
-  background-size: cover;
+  background: url(../img/polish-wallpaper.jpg);
   width: 100%;
   padding: 60px 0; }
 
 .services-box,
 .services-box-2,
 .services-box-3 {
-  background-color: white;
-  color: black;
+  background-color: #ec5525;
+  color: white;
   margin: 0 auto 30px;
   width: 600px;
   padding: 20px 60px 60px; }
 
 .service-title {
-  color: #ec5525; }
+  color: black; }
 
 .service-price {
-  color: #ec5525;
+  color: black;
   float: right; }
 
 .service-content {
   font-size: 14px;
   text-indent: 15px; }
+
+.gallery {
+  position: relative;
+  width: 100%;
+  background: url(../img/many-polish-drops1.jpg) center no-repeat;
+  background-size: cover;
+  padding: 80px 0; }
+
+.carousel {
+  width: 60%;
+  margin: auto; }
 
 footer {
   width: 100%;
