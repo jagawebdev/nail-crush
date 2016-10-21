@@ -12,7 +12,7 @@ header {
 }
 
 
-.navbar {
+.j-navbar {
     display: block;
     position: relative;
     width: 75%;
@@ -31,7 +31,7 @@ header {
     height: 80px;
 }
 
-.navlist {
+.j-navlist {
     position: relative;
     display: block;
     float: right;
@@ -42,7 +42,7 @@ header {
             text-transform: uppercase;
             padding: 0 10px;
             color: $orange;
-            line-height: 80px;
+            line-height: 100px;
         }
     }
 }
@@ -54,6 +54,7 @@ header {
     padding: 20px 20px 0 0;
     float: right;
     text-align: right;
+    z-index: 300;
     &:hover {
     cursor: pointer;
     }
@@ -66,8 +67,9 @@ header {
     left: 0;
     right: 0;
     line-height: 0;
-    margin-top: 71px;
+    margin-top: 111px;
     text-align: center;
+    z-index: 200;
     ul {
         background-color: white;
         list-style:none;
@@ -89,20 +91,21 @@ header {
 }
 
 @media screen and (max-width: 575px) {
-    .navbar {
+    .j-navbar {
         width: 100%;
-        .navlist {
+        .j-navlist {
             display: none;
         }
     }
     
     .hamburger {
         display: inline-block;
+        z-index: 300;
     }
 }
 
 @media (min-width: 576px) and (max-width: 720px) {
-    .navbar {
+    .j-navbar {
         width: 95%;
     }
     
