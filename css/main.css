@@ -552,12 +552,15 @@ h1 {
   background-color: black;
   width: 500px;
   padding: 20px 60px 60px;
-  margin: auto;
+  margin: 20px auto;
   font-size: 16px;
   font-weight: 400;
   text-align: left;
   text-transform: none;
   color: #f8f8f8; }
+
+.special-cta {
+  color: #ec5525; }
 
 .testimonials {
   background-color: white;
